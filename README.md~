@@ -1,7 +1,0 @@
-Software description
----------------------
-Salient detector will run salient detection at a rate of 5 - 15 Hz. It will read an image from the spotter camera topic and simultaneously grab navigation information from the mavlink_comms. 
-
-The image will be used to create an 8 MP saliency map of the image. Using the saliency map the detector will be crop regions of interest by thresholding the image and filtering ROI by size.
-
-Next the approximate location of the target in the NED fram will be calculated and published at a rate of 15 hz.
