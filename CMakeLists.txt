@@ -8,12 +8,13 @@ find_package(catkin REQUIRED COMPONENTS
 	roscpp 
 	rosconsole 
 	roscpp_serialization 
-	OpenCV 
 	cv_bridge 
 	image_transport
 	message_generation 
   image_geometry
 )
+
+find_package( OpenCV REQUIRED)
 
 add_message_files(
   FILES
